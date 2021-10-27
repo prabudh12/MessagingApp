@@ -1,9 +1,8 @@
-package com.example.KotlinMessenger
+package com.example.kotlinmessenger
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.kotlinmessenger.NewMessageActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot

@@ -1,4 +1,4 @@
-package com.example.KotlinMessenger
+package com.example.kotlinmessenger
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot

@@ -1,4 +1,4 @@
-package com.example.KotlinMessenger
+package com.example.kotlinmessenger
 
 import android.content.Intent
 import android.os.Bundle

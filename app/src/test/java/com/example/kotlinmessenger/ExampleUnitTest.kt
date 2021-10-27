@@ -1,4 +1,4 @@
-package com.example.KotlinMessenger
+package com.example.kotlinmessenger
 
 import org.junit.Test
 

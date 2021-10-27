@@ -1,4 +1,4 @@
-package com.example.KotlinMessenger
+package com.example.kotlinmessenger
 
 import com.letsbuildthatapp.kotlinmessenger.models.User
 import com.squareup.picasso.Picasso

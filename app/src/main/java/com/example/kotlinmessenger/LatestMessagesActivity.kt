@@ -1,4 +1,5 @@
-package com.example.KotlinMessenger
+package com.example.kotlinmessenger
+
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +8,6 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.DividerItemDecoration
-import com.example.kotlinmessenger.NewMessageActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.letsbuildthatapp.kotlinmessenger.models.User
@@ -84,13 +84,6 @@ class LatestMessagesActivity : AppCompatActivity() {
 
     val adapter = GroupAdapter<GroupieViewHolder>()
 
-//  private fun setupDummyRows() {
-//
-//
-//    adapter.add(LatestMessageRow())
-//    adapter.add(LatestMessageRow())
-//    adapter.add(LatestMessageRow())
-//  }
 
     private fun fetchCurrentUser() {
         val uid = FirebaseAuth.getInstance().uid

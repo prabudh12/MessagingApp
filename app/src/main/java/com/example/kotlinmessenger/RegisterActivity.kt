@@ -1,4 +1,4 @@
-package com.example.KotlinMessenger
+package com.example.kotlinmessenger
 
 import android.app.Activity
 import android.content.Intent
@@ -50,6 +50,7 @@ class RegisterActivity : AppCompatActivity() {
             val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, selectedPhotoUri)
 //            val bitmapDrawable = BitmapDrawable(bitmap)
 //            selectedphoto_imageview_register.setBackgroundDrawable(bitmapDrawable)
+
             selectedphoto_imageview_register.setImageBitmap(bitmap)
 
         }
